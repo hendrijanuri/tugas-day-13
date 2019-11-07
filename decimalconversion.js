@@ -2,15 +2,15 @@ var desimalKeBiner=(a)=> {
     let output = []
     while (a>=1) {
         output.push(a % 2) 
-        a /= 2            
+        a = Math.floor(a / 2)            
     }
-    // let biner=output.reverse().join('')
-    return output
+    let biner=output.reverse().join('')
+    return biner
 }
 
 
-var desimalKeHex=()=>{
+// var desimalKeHex=()=>{
 
-}
 
-console.log(desimalKeBiner(5))
+
+console.log(desimalKeBiner(1000))
