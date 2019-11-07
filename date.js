@@ -12,9 +12,9 @@ function tanggal(str) {
     var years=arr.slice(4,8)
     years=years.join('')
     
-    return console.log(dates+'-'+months+'-'+years)
+    return (dates+'-'+months+'-'+years)
 }
 
-
-console.log(tanggal(12012012))
+var tgl = 12012012
+console.log(tgl + ' >>>> ' + tanggal(tgl))
 
