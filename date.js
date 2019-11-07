@@ -1,3 +1,7 @@
+var tgl = 12012012
+console.log(tgl + ' >>>> ' + tanggal(tgl))
+
+
 function tanggal(str) {
     var arr=str.toString().split('')
     var dates=arr.slice(0,2)
@@ -14,7 +18,3 @@ function tanggal(str) {
     
     return (dates+'-'+months+'-'+years)
 }
-
-var tgl = 12012012
-console.log(tgl + ' >>>> ' + tanggal(tgl))
-
