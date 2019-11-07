@@ -1,9 +1,5 @@
-var tanggal = 12012012
-console.log(tanggal+' >>> '+tanggal(tanggal))
-
-var tanggal=(str)=>{
+function tanggal(str) {
     var arr=str.toString().split('')
-    console.log(arr)
     var dates=arr.slice(0,2)
     dates=dates.join('')
     
@@ -18,3 +14,7 @@ var tanggal=(str)=>{
     
     return console.log(dates+'-'+months+'-'+years)
 }
+
+
+console.log(tanggal(12012012))
+
