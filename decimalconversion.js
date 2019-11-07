@@ -33,5 +33,5 @@ var desimalKeHex=(a)=>{
 }
 
 var number=1000
-console.log(desimalKeBiner(number))
-console.log(desimalKeHex(number))
+console.log('Angka Binary dari '+number+' adalah: '+desimalKeBiner(number))
+console.log('Angka Hexadecimal dari '+number+' adalah: '+desimalKeHex(number))
