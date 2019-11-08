@@ -31,7 +31,6 @@ var desimalKeHex=(a)=>{
     let biner=output.reverse().join('')
     return biner
 }
-
 var number=1000
 console.log('Bentuk Binary dari angka '+number+' adalah: '+desimalKeBiner(number))
 console.log('Bentuk Hexadecimal dari angka '+number+' adalah: '+desimalKeHex(number))
